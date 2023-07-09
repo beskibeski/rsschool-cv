@@ -1,3 +1,186 @@
+html {
+--primary_color: #762B3E;
+--secondary_color: #FFFEFE;
+ background-color: black;
+ font-size: 10px;
+ line-height: 10px;
+ font-family: 'Inter';
+ font-style: normal;
+ font-weight: 400;
+ color: var(--secondary_color);
+  }
+
 body{
-    width: 100%;
+    background: url(./src/assets/img/background.jpg) no-repeat;
+    background-size: 100%;
+    width: 55vw;
+    margin: auto;  
+}
+
+ .wrapper{      
+    margin: auto;
+    color: var(--secondary_color);
+    padding-left: 25px;
+    padding-right: 25px;   
+}
+
+
+.avatar{
+    padding-top: 16px;
+    display: flex;
+    align-items: center;
+    gap: 4%;
+}
+
+h1{
+    display: inline;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3.6rem;
+    line-height: 4.4rem;     
+    text-align: left;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+.articles{
+    margin-bottom: 20px;
+}
+
+.main_wrapper{
+    display: flex;
+    justify-content: space-between;
+    gap: 6%;
+}
+
+.column{
+    width: 55%;
+    margin-top: 20px;
+}
+
+h2{
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    text-transform: uppercase;
+    background-color: var(--primary_color);
+    width: 21vw;
+    height: 1.9rem;
+    font-weight: 400;      
+}
+
+.article{
+    display: flex;
+    align-items: center;
+}
+
+.square{
+    width: 2.1rem;
+    height: 1.9rem;
+    background-color: #FFFEFE;
+   }
+
+.round{
+    border-radius: 100px;
+    border: solid 5px var(--primary_color);
+}
+
+.text_header{
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    letter-spacing: 0.05em;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin:0;
+    
+}
+
+
+.about_me{
+margin-top: -38px;
+}
+
+
+a{
+    text-decoration: none;
+    color:var(--secondary_color);
+}
+
+p{
+    margin:0;
+}
+
+.icons__text__center{
+    display: flex;
+    vertical-align:center;
+    align-items: center;
+    margin-bottom: 1%;
+}
+
+.contacts__icon__text{
+    margin-left: 4%;
+}
+
+.my__skill__text{
+    display: inline-block;
+    margin-right: 4%;
+    width: 8vw;
+}
+
+.footer{
+    background-color: var(--primary_color);
+    height: 5vh;    
+}
+
+.footer_wrapper{
+    padding-left: 12px;
+    padding-right: 12px;
+    margin: auto;
+    height: 100%;
+}
+
+.footer_navigation{
+    display: flex;
+    vertical-align:center;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.footer_link_text{
+    display: flex;
+}
+
+.footer_copyright_text{
+    display: flex;
+    padding-bottom: 3px;
+}
+
+
+.link__text{
+    padding-top: 3px;
+    padding-left: 4px;
+}
+
+.copyright_text{
+    padding-top: 4px;
+    padding-left: 4px;
+}
+
+.rsschool{
+    padding-top: 2px;
+
+}
+
+main a:hover {
+    color: var(--primary_color);
+}
+
+#center{
+    height:30vh;
 }
