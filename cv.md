@@ -39,6 +39,14 @@ function strCount(object) {
 ```
 ***
 ### **6. My experience:**
+[Plants](https://rolling-scopes-school.github.io/beskibeski-JSFEPRESCHOOL2022Q4/plants/ "Plants project") - project with adaptive design and some javascript.
+
+[Momentum](https://rolling-scopes-school.github.io/beskibeski-JSFEPRESCHOOL2022Q4/momentum/ "Momentum project") - offline application with date, time, weather, quotes, audioplayer and e.t.c.
+
+[Photoalbums site](http://m29706jd.beget.tech/) - constructing something by myself.
+
+...and many many others...sush as Async Race (Typescript), Commercial tools (final task on second stage with Typescript), Youtube-client and Connections (Angular), some backend applications (NodeJS and NestJS)
+
 ***
 ### **7. My education:**
 [JS/FE Pre-School 2022Q4 Certificate](https://app.rs.school/certificate/rvthhn2p)
