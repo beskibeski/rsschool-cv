@@ -1,9 +1,9 @@
 ## **MY PROFILE**
+![My avatar](https://i.ibb.co/hDjNgpR/man-dark-little.png)
 
 ---
 ### **1. My name:**
 Aliaksandr Ipatau
-![My avatar](https://i.ibb.co/hDjNgpR/man-dark-little.png)
 
 ***
 ### **2. My contacts:**
@@ -18,23 +18,24 @@ I am a junior front-end developer. My aim is to change my life and become a prof
 ***
 ### **4. My skills:**
 HTML, CSS, Sass, JavaScript, Typescript, Angular, NodeJS, NestJS, Figma ...and a little bit of C++, C#, Unity, Unreal, Blender.
+
 ***
 ### **5. Code example:**
+Count strings in objects
+
 ```
-public async uploadFiles(event) {
-  this.filenames = [];
-  this.filenames$.next(this.filenames);
-  const eventTarget = event.target;
-  if (eventTarget.files !== null) {
-    const files = eventTarget.files;
-    for (let index = 0; index < files.length; index += 1) {
-      const file = files[index];
-      this.filenames.push(file.name)
-      this.filenames$.next(this.filenames);      
-      this.formData.append('files', file);        
-    };      
-  };    
-};
+function strCount(object) {
+  let count = 0;
+  for (let prop in object) {
+    if (typeof object[prop] === 'object'){
+        count += strCount(object[prop]);
+    }
+    else if (typeof object[prop] === 'string'){
+        count += 1;
+    }    
+  }
+  return count;
+}
 ```
 ***
 ### **6. My experience:**
