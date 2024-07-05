@@ -17,7 +17,7 @@ I am a junior front-end developer. My aim is to change my life and become a prof
 
 ***
 ### **4. My skills:**
-HTML, CSS, Sass, JavaScript, Typescript, Angular, NodeJS, NestJS, Figma ...and a little bit of C++, C#, Unity, Unreal, Blender.
+HTML, CSS, Sass, JavaScript, Typescript, Angular, NodeJS, NestJS, Figma ...and a little bit of C++, C#, Unity, Unreal, Blender, Docker, AWS, Photoshop, Coreldraw.
 
 ***
 ### **5. Code example:**
