@@ -1,3 +1,11 @@
 html {
-  display: block,
+  --color-primary: #762B3E;
+  --color-secondary: #FFFEFE;
+  --color-background: black;
+   font-size: 10px;
+   line-height: 10px;
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 400;
+   color: var(--secondary_color);
 }
