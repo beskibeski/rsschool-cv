@@ -32,7 +32,7 @@ function strCount(object) {
     }
     else if (typeof object[prop] === 'string'){
         count += 1;
-    }    
+    }
   }
   return count;
 }

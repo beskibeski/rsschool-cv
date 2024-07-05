@@ -7,5 +7,5 @@ html {
    font-family: 'Inter';
    font-style: normal;
    font-weight: 400;
-   color: var(--secondary_color);
+   color: var(--color-secondary);
 }
